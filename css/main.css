@@ -1,0 +1,160 @@
+@font-face {
+    font-family: RobotoR;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: RobotoR;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/5de24294bad21ec99931f4c362354f22.jpg");
+
+    background-position: center;
+    background-size: cover;
+
+    padding-top: 80px;
+}
+
+.hero_title {
+    width: 100%;
+    text-align: center;
+    color: white;
+
+    font-size: 20px;
+}
+
+.hero_textbox {
+    margin-top: 15%;
+    margin-left: 15%;
+    width: 40%;
+}
+
+.hero_line_1,
+.hero_line_2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.hero_line_1 {
+    color: lightgray;
+    font-size: 26px;
+}
+
+.hero_line_2 {
+    color: white;
+    font-size: 64px;
+}
+
+.hero_description {
+    color: white;
+    font-size: 20px;
+}
+
+.gallery {
+    width: 80%;
+    height: 100vh;
+
+    margin: auto;
+
+    background-color: white;
+}
+
+.text-info {
+    width: 100%;
+
+    padding: 40px;
+
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.text-info h2 {
+    font-size: 48px;
+    font-weight: 300;
+}
+.text-info p {
+    font-size: 18px;
+    color: gray;
+}
+
+.images {
+    width: 100%;
+    max-width: 1000px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+
+    margin: auto;
+}
+
+.first-row {
+    width: 140%;
+    height: 100%;
+
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.first-row img {
+    width: 84%;
+    height: auto;
+}
+
+.second-row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.second-row img {
+    width: 100%;
+    height: auto;
+}
+
+.company {
+    width: 100%;
+    height: 326px;
+
+    margin: auto;
+    background-image: url(../img/304d4cc45c845f134999b8cd24bca833.jpg);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.company h2 {
+    font-size: 32px;
+    text-align: center;
+    color: white;
+    border: 2px solid white;
+
+    padding: 16px;
+}
+
+.company p {
+    max-width: 800px;
+
+    font-size: 18px;
+    line-height: 200%;
+    text-align: center;
+
+    color: white;
+}
